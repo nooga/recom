@@ -1,5 +1,11 @@
+# This is obsolete and doesn't make any sense in this day and age. Keeping it here as a memoir.
+
+I was young and naive but still managed to write a decent regexp compiler in "C with classes" ;)
+
+---
+
 RECOM - Regular Expression COMpiler v0.1
-by Martin Gasperowicz
+by Marcin Gasperowicz
 
 RECOM is a tool that can create a compiled match function from a regular expression.
 
@@ -30,10 +36,14 @@ Installation:
 1. Download the source
 2. Run
 
+```
 $ make CONF=Release
+```
 
 3. Enjoy:
 
+```
 $ ./dist/Release/<your-arch>/regej "regular expression" 
+```
 
 Will output assembler to the stdout. 
